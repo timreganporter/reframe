@@ -1,4 +1,4 @@
-# Ruby on Rails Tutorial: sample application
+# ReFrame
 
 This is pre-alpha version of 
 [*ReFrame: Adding cultural context via community and professional
