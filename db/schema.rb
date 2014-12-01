@@ -11,7 +11,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141111214811) do
+ActiveRecord::Schema.define(version: 20141130111617) do
+
+  create_table "articles", force: true do |t|
+    t.string   "url"
+    t.string   "headline"
+    t.text     "summary"
+    t.boolean  "is_primary"
+    t.text     "article_question"
+    t.string   "article_geo"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+  end
 
   create_table "microposts", force: true do |t|
     t.text     "content"
